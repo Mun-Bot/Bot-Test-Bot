@@ -46,7 +46,7 @@ module.exports.run = async function({ api, event, args }) {
   const callback = () => 
     api.sendMessage(
       {
-        body: `[💙] গ্রুপ বেসিক ইনফরমেশন \n
+        body: `[🖤] গ্রুপ বেসিক ইনফরমেশন \n
 [🤍] গ্রুপ নাম: ${threadName}
 [🤍] গ্রুপ-আইডি: ${id}
 [🤍] APV MODE: ${approvalStatus}
@@ -56,7 +56,7 @@ module.exports.run = async function({ api, event, args }) {
 [🤍] মেয়ে: ${nu} জন 🙍‍♀️
 [🤍] এডমিন: ${qtv} জন 👑
 [🤍] মোট মেসেজ সংখ্যা: ${sl} টি 📝 \n
-[💙] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 🥀`,
+[🖤] stay with mun bot 🥀`,
         attachment: fs.createReadStream(__dirname + '/cache/1.png')
       },
       event.threadID,
