@@ -17,16 +17,16 @@ module.exports.config = {
 module.exports.run = async ({ api, event }) => {
   try {
     const ownerInfo = {
-      name: 'Tanvir Ahmed',
+      name: 'ᴍᴅ ᴋʜᴀɪʀᴜʟ ɪꜱʟᴀᴍ ᴍᴏꜱᴀᴅᴅᴇᴋ',
       gender: 'Male',
       age: '18+',
       height: '5\'7ft',
-      facebookLink: 'facebook.com/alabiooBaby',
-      home: 'Chandpur, Bangladesh',
+      facebookLink: 'facebook.com/kim.mosaddek',
+      home: 'Brahmanbaria, Bangladesh',
       status: 'single'
     };
 
-    const videoUrl = 'https://drive.google.com/uc?export=download&id=1iAElNWqMpkRHGnzpenc-msdqgI9VxN1T'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const videoUrl = 'https://drive.google.com/uc?export=download&id=1OOjNg4Mxxr99yMMVBL4GHVFpIH8LuH8B'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
@@ -47,7 +47,7 @@ module.exports.run = async ({ api, event }) => {
 [🤍] 𝘈𝘨𝘦: ${ownerInfo.age}
 [🤍] 𝘏𝘦𝘪𝘨𝘩𝘵: ${ownerInfo.height}
 [🤍] 𝘴𝘵𝘢𝘵𝘶𝘴: ${ownerInfo.status}
-[🤍] 𝘍𝘢𝘤𝘦𝘣𝘰𝘰𝘬 ${ownerInfo.facebookLink}\n\n𝘛𝘩𝘢𝘯𝘬𝘴 𝘧𝘰𝘳 𝘶𝘴𝘪𝘯𝘨 𝘛𝘢𝘯𝘷𝘪𝘳𝘉𝘰𝘵
+[🤍] 𝘍𝘢𝘤𝘦𝘣𝘰𝘰𝘬 ${ownerInfo.facebookLink}\n\nThanks for Using Mun Bot 🖤🌸
 `;
 
 
