@@ -26,7 +26,7 @@ module.exports.run = async ({ api, event }) => {
       status: 'single'
     };
 
-    const videoUrl = 'https://drive.google.com/file/d/1OOjNg4Mxxr99yMMVBL4GHVFpIH8LuH8B/view?usp=drivesdk'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const videoUrl = 'https://drive.google.com/uc?export=download&id=1OOjNg4Mxxr99yMMVBL4GHVFpIH8LuH8B'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
