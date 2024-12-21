@@ -82,10 +82,10 @@ var query = (event.type == "message_reply") ? event.messageReply.body : args.joi
     counter += 1;
   }
   
-  api.sendMessage("[🤍] SENDING YOUR IMAGES...", event.threadID, event.messageID)
+  api.sendMessage("[🖤] SENDING YOUR IMAGES...", event.threadID, event.messageID)
   
   let msg = {
-    body: `[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 🥀`,
+    body: `[🖤] stay with mun bot 🥀`,
     attachment: streams
   };
   
