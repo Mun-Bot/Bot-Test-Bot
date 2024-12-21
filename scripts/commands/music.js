@@ -57,7 +57,7 @@ module.exports.run = async function ({ api, event, args }) {
 
       await api.sendMessage(
         {
-          body: `[🤍] 𝘴𝘵𝘢𝘺 𝘸𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 `,
+          body: `[🤍] stay with mun bot `,
           attachment: fs.createReadStream(filePath)
         },
         threadID
