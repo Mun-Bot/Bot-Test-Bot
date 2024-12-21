@@ -17,12 +17,12 @@ module.exports.config = {
 module.exports.run = async ({ api, event }) => {
   try {
     const ownerInfo = {
-      name: 'ᴍᴅ ᴋʜᴀɪʀᴜʟ ɪꜱʟᴀᴍ ᴍᴏꜱᴀᴅᴅᴇᴋ',
+      name: 'Tanvir Ahmed',
       gender: 'Male',
       age: '18+',
       height: '5\'7ft',
-      facebookLink: 'ꜰᴀᴄᴇʙᴏᴏᴋ.ᴄᴏᴍ/ᴋɪᴍ.ᴍᴏꜱᴀᴅᴅᴇᴋ',
-      home: 'ʙʀᴀʜᴍᴀɴʙᴀʀɪᴀ, ʙᴀɴɢʟᴀᴅᴇꜱʜ',
+      facebookLink: 'facebook.com/alabiooBaby',
+      home: 'Chandpur, Bangladesh',
       status: 'single'
     };
 
@@ -47,7 +47,7 @@ module.exports.run = async ({ api, event }) => {
 [🤍] 𝘈𝘨𝘦: ${ownerInfo.age}
 [🤍] 𝘏𝘦𝘪𝘨𝘩𝘵: ${ownerInfo.height}
 [🤍] 𝘴𝘵𝘢𝘵𝘶𝘴: ${ownerInfo.status}
-[🤍] 𝘍𝘢𝘤𝘦𝘣𝘰𝘰𝘬 ${ownerInfo.facebookLink}\n\nThanks for using Mun Bot 🖤🌸
+[🤍] 𝘍𝘢𝘤𝘦𝘣𝘰𝘰𝘬 ${ownerInfo.facebookLink}\n\n𝘛𝘩𝘢𝘯𝘬𝘴 𝘧𝘰𝘳 𝘶𝘴𝘪𝘯𝘨 𝘛𝘢𝘯𝘷𝘪𝘳𝘉𝘰𝘵
 `;
 
 
