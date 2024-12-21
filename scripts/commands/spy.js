@@ -30,7 +30,7 @@ module.exports.run = async function ({ api, event, args }) {
     });
 
     api.sendMessage(
-      { body: "[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 🥀", attachment: res.data },
+      { body: "[🤍] stay with mun bot 🥀", attachment: res.data },
       event.threadID,
       event.messageID,
     );
