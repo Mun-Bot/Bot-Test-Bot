@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: `${global.config.BOTNAME}`,
+  name: `ai`,
   names: ["ai", "bot"],
   version: "1.1.0",
   permission: 0,
@@ -36,4 +36,4 @@ module.exports.run = async function ({api, event, args}) {
   } catch (error) {
     return api.sendMessage('having some unexpected error', event.threadID, event.messageID)
   }
-}
+} 
