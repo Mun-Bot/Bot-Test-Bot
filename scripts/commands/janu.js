@@ -6,7 +6,7 @@ const baseApiUrl = async () => {
 };
 
 module.exports.config = {
-  name: "janu",
+  name: "bot",
   version: "6.9.9",
   credits: "dipto",
   cooldowns: 0,
@@ -24,12 +24,6 @@ module.exports.run = async function ({ api, event, args, Users }) {
     const link = `${await baseApiUrl()}/baby`;
     const dipto = args.join(" ").toLowerCase();
     const uid = event.senderID;
-
-    if (!args[0]) {
-      const ran = ["😘😩"];
-      const r = ran[Math.floor(Math.random() * ran.length)];
-      return api.sendMessage(r, event.threadID, event.messageID);
-    }
 
     if (args[0] === 'remove') {
       const fina = dipto.replace("remove ", "");
@@ -156,10 +150,12 @@ try{
 module.exports.handleEvent = async function ({ api, event }) {
 try{
     const body = event.body ? event.body.toLowerCase() : ""
-    if(body.startsWith("baby") || body.startsWith("bby") || body.startsWith("janu")){
+    if(body.startsWith("baby") || body.startsWith("bby") || body.startsWith("Hi") || body.startsWith("Hlw") || body.startsWith("Bot") || body.startsWith("Janu") || body.startsWith("Hilu") || body.startsWith("thank you") || body.startsWith("Hi iam new") || body.startsWith("thanks")){
         const arr = body.replace(/^\S+\s*/, "")
       if(!arr) {
-                                     await api.sendMessage("হুম বলো গো😘😌...", event.threadID, (error, info) => {
+      	const tanvir = ["তোমাকে আমার ভাল্লাগে🥹🫰", "আসো উমম্মাহহহহহ্ দেই💋😽", "চল যাইগা পাট ক্ষেতে🙂", " তোমার অলিতে গলিতে উমম্ম*আহ্😘", "Hey Baby🥹", "kemon acho baby😌"];
+          const tamim = tanvir[Math.floor(Math.random() * tanvir.length)];
+                                     await api.sendMessage(tamim, event.threadID, (error, info) => {
           global.client.handleReply.push({
             name: this.config.name,
             type: "reply",
